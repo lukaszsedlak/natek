@@ -1,0 +1,23 @@
+{
+  "name": "natek",
+  "version": "1.0.0",
+  "description": "This repository will contain examples of typical tasks for the candidates to read and perform in order to come to the interview",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --project=login"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukaszsedlak/natek.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukaszsedlak/natek/issues"
+  },
+  "homepage": "https://github.com/lukaszsedlak/natek#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.35.1"
+  }
+}

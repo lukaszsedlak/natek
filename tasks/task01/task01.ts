@@ -1,5 +1,7 @@
-class LoginPage {
-    login(username: string, password: string, authService: AuthenticationService): boolean {
+import { AuthenticationService } from "./authentication-service";
+
+export class LoginPage {
+    static login(username: string, password: string, authService: AuthenticationService): boolean {
       let result = false;
       
       // Call the authentication service to check the credentials
